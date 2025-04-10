@@ -7,4 +7,10 @@ This is a neural machine translation (NMT) application that translates text betw
 * 🧪 Model trained from scratch, not fine-tuned from a pre-trained base
 
 * 📦 Includes training scripts, evaluation, and inference API
+
+# Demo
+![image](https://github.com/user-attachments/assets/34485f25-201a-4c28-a483-0f456b7d612e)
+
 ![image](https://github.com/user-attachments/assets/a5912b31-6f63-4845-b94c-265ce5d864c5)
+
+
