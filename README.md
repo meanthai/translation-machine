@@ -1,5 +1,15 @@
 # Translation Machine Application for CS115
-This is a neural machine translation (NMT) application that translates text between English and Vietnamese (and vice versa). The transformer model was trained from scratch using an existing dataset and implements a full translation pipeline, including preprocessing, tokenization, model training, and inference.
+This is a neural machine translation (NMT) application that translates text between English and Vietnamese (and vice versa). The core of the model is based on the Transformer architecture, as introduced in the "Attention Is All You Need" paper.
+
+Unlike many implementations that rely on pre-built modules or pretrained models, this project reimplements the full Transformer architecture from scratch, including:
+
+* Multi-layer Encoder and Decoder stacks
+
+* Multi-Head Attention mechanisms
+
+* Positional Encoding, Layer Normalization, and Residual Connections
+
+The model was trained from scratch on an existing English-Vietnamese dataset and includes a complete translation pipeline: from data preprocessing and tokenization to training and inference.
 
 ✨ Features
 * 🔁 Bidirectional translation: English ↔ Vietnamese
